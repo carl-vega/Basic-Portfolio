@@ -63,6 +63,7 @@ nav .divider {
   color: #999999;
   line-height: 34px;
   font-size: 18px;
+  margin-bottom: 102px;
 }
 .main-section .content {
   padding: 30px;
@@ -81,4 +82,38 @@ hr {
   float: left;
   margin-right: 24px;
   margin-bottom: 20px;
+}
+footer {
+  font-size: 12px;
+  border-top: 4px solid #4aaaa5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: #999999;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 42px;
+}
+.thumbnails {
+}
+.thumbnail {
+  position: relative;
+  width: 275px;
+  height: 205px;
+  margin-right: 40px;
+  margin-bottom: 55px;
+  display: inline-block;
+}
+.thumbnail .image-title {
+  background-color: #4aaaa5;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  line-height: 62px;
+}
+.thumbnail img {
+  position: absolute;
 }
