@@ -60,6 +60,9 @@ nav .divider {
 .main-section {
   border: 1px solid #dddddd;
   background-color: #ffffff;
+  color: #999999;
+  line-height: 34px;
+  font-size: 18px;
 }
 .main-section .content {
   padding: 30px;
@@ -75,4 +78,7 @@ hr {
 }
 .profile-pic {
   width: 256px;
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 20px;
 }
