@@ -10,33 +10,42 @@ h6 {
   font-family: "Georgia", Times, Times New Roman, serif;
 }
 h1 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
 }
 header {
   background: #ffffff;
-  height: 64px;
+  height: 93px;
   width: 100%;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 40px;
 }
 .logo {
   color: #ffffff;
   background-color: #4aaaa5;
-  padding: 20px 30px;
+  padding: 31px 30px 30px 30px;
   float: left;
 }
 nav {
   float: right;
 }
 .navigation-item {
+  font-size: 18px;
   color: #979ca7;
   float: left;
-  padding: 5px;
-  border-right: 1px solid #cccccc;
+  line-height: 93px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
 }
 .navigation-item:hover {
   color: #111111;
   cursor: pointer;
+}
+nav .divider {
+  line-height: 93px;
+  color: #dddddd;
+  float: left;
 }
 .banner {
   width: 960px;
