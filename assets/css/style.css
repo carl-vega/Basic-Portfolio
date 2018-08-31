@@ -111,8 +111,9 @@ footer {
   margin-right: 40px;
   margin-bottom: 55px;
   display: inline-block;
+  text-decoration: none;
 }
-.thumbnail .image-title {
+.thumbnail h3 {
   background-color: #4aaaa5;
   position: absolute;
   bottom: 10px;
@@ -148,5 +149,28 @@ label {
   line-height: 22px;
   width: 116px;
   font-size: 20px;
+  color: #ffffff;
+}
+.new-window:hover {
+  color: #111111;
+  cursor: pointer;
+}
+/* .image-title-2:hover {
+  cursor: pointer;
+}
+.image-title-3:hover {
+  cursor: pointer;
+}
+.image-title-4:hover {
+  cursor: pointer;
+}
+.image-title-5:hover {
+  cursor: pointer;
+}
+.image-title-6:hover {
+  cursor: pointer;
+} */
+.new-window {
+  text-decoration: none;
   color: #ffffff;
 }
